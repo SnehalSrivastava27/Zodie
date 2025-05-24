@@ -1,6 +1,5 @@
 "use client"
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Carousel from "@/components/ui/corousel"
 import { Button } from "@/components/ui/button"
 
