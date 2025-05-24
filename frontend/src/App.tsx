@@ -8,9 +8,7 @@ import { NovaPage } from './Page/NovaAgent'
 import { MaxiPage } from './Page/MaxiAgent'
 import { ArchiePage } from './Page/ArchieAgent'
 import { OnixPage } from './Page/OnixAgent'
-
-
-
+import {Login,Signup} from './Page/Login'
 function App() {
   return (
     <>
@@ -23,6 +21,8 @@ function App() {
         <Route path='/maxi' element={<MaxiPage/>}></Route>
         <Route path='/archie' element={<ArchiePage/>}/>
         <Route path='/onix' element={<OnixPage/>}/>
+        <Route path='/login' element={<Login/>}></Route>
+        <Route path='/signup' element={<Signup/>}></Route>
       </Routes>
     </BrowserRouter>
     </>
