@@ -5,7 +5,8 @@ import Navbar from "@/components/ui/nav"
 import { Footerdemo } from "@/demo/fs"
 import { GradientHeadingDemo } from "@/demo/gradientHeadDemo"
 import {Bolt,CopyPlus,Layers2,Files} from 'lucide-react'
-import dash from "@/components/blocks/Dashboard.png"
+import { Marquee } from "@/components/ui/marqueeText"
+import archie from '@/images/archie.png'
 
 export const ArchiePage=()=>{
     return(
@@ -13,8 +14,8 @@ export const ArchiePage=()=>{
         <Navbar></Navbar>
           <HeroAgent
                   heading="Meet Your AI Agents"
-                  description="Help candidates find and choose you faster. Empower your recruiters and managers — all with AI."
-                  image={dash}
+                  description="Archie brings clarity to your HR data. From uncovering where candidates drop off to revealing which sources bring the best talent, it arms HR leaders with the insights they need to continuously refine and win the hiring game"
+                  image={archie}
                   item={{
                     label: "Archie",
                     agents: [
@@ -25,6 +26,7 @@ export const ArchiePage=()=>{
                       { label: "Onix", to: "/onix", icon: <Files size={16} className="opacity-60" /> },
                     ],
                   }}></HeroAgent>
+                      <Marquee text='ARCHIE'></Marquee>
         <GradientHeadingDemo></GradientHeadingDemo>
         <Features></Features>
         <Footerdemo></Footerdemo>
