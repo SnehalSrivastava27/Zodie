@@ -25,7 +25,7 @@ const menuItems = [
   },
   {
     name: "AI Agents",
-    href: "#",
+    href: "/prime",
     megaMenu: {
       title: "AI Agents",
       description: "Discover our powerful AI agents for your business",
@@ -168,12 +168,12 @@ export default function Navbar() {
             </div>
             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
               <Button asChild variant="outline" size="sm">
-                <Link to="login">
+                <Link to="/login">
                   <span>Login</span>
                 </Link>
               </Button>
               <Button asChild size="sm">
-                <Link to="signup">
+                <Link to="/signup">
                   <span>Sign Up</span>
                 </Link>
               </Button>
