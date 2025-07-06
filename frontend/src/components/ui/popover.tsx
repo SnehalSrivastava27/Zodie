@@ -3,10 +3,10 @@
 import * as React from "react"
 import {
   Dialog as AriaDialog,
-  DialogProps as AriaDialogProps,
+  type DialogProps as AriaDialogProps,
   DialogTrigger as AriaDialogTrigger,
   Popover as AriaPopover,
-  PopoverProps as AriaPopoverProps,
+  type PopoverProps as AriaPopoverProps,
   composeRenderProps,
 } from "react-aria-components"
 

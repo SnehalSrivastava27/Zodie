@@ -9,12 +9,13 @@ import { MaxiPage } from './Page/MaxiAgent'
 import { ArchiePage } from './Page/ArchieAgent'
 import { OnixPage } from './Page/OnixAgent'
 import {Login,Signup} from './Page/Login'
+import Component from './components/try/auth'
 function App() {
   return (
     <>
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingPage/>} />
+        <Route path="/" element={<Component/>} />
         <Route path='/prime' element={<PrimeHrPage/>}/>
         <Route path='/optimus' element={<OptimusPage/>}/>
         <Route path='/nova' element={<NovaPage/>}></Route>
